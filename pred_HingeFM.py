@@ -22,7 +22,7 @@ MODEL_KWARGS = dict(
     use_coordatt=opt.use_coordatt,
 )
 
-# trained weights, or pv_crgnet_best.pth from Releases
+
 CHECKPOINT_PATH = opt.save_dir / "train" / "best.pth"
 
 INPUT_DIR = opt.data_dir / "test" / "LR"
